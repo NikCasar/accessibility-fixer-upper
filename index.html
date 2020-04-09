@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
+<meta charset="utf-8">
 <head>
   <title>Shrubs</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,12 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400i" rel="stylesheet">
 </head>
 <body>
-<ul class="skip-links">
-  <li><a href="#main">Jump to main content</a></li>
-  <li><a href="#nav">Jump to navigation</a></li>
-</ul>
-<header role="banner">
-  <div class="masthead">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="banner">
       <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
         <h1 class="push-0">Shrubbery, etc.</h1>
       </div>
@@ -31,8 +31,7 @@
           </ol>
         </div>
     </nav>
-  </div>
-</header>
+  </header>
 <main role="main" id="main" tabindex="0">
   <section id="about" tabindex="0">
     <div class="push">
@@ -54,23 +53,24 @@
         <p class="mega max-length not-centered">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
         <ul class="grid list-group">
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex push" src="images/shrub-1.jpg" aria-details="grassy-shrubs">
+            <img class="img-flex push" src="images/shrub-1.jpg" alt="" aria-details="grassy-shrubs">
             <div class="gutter-1-4" id="grassy-shrubs">
               <h1 class="mega push-0">Grassy shrubs</h1>
-              <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
-          </li>
-          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex push" src="images/shrub-2.jpg" aria-details="shrubs-with-laurels">
-            <div class="gutter-1-4" id="shrubs-with-laurels">
-              <h1 class="mega push-0">Shrubs with laurels</h1>
-              <span>Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</span>
+              <span role="complementary">Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
             </div>
           </li>
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
-            <img class="img-flex push" src="images/shrub-3.jpg" aria-details="two-level-shrub">
+            <img class="img-flex push" src="images/shrub-2.jpg" alt="" aria-details="shrubs-with-laurels">
+            <div class="gutter-1-4" id="shrubs-with-laurels">
+              <h1 class="mega push-0">Shrubs with laurels</h1>
+              <span role="complementary">Shrubs with laurels have pretty little flowers that bloom sometime during the summer. They’re nice.</span>
+            </div>
+          </li>
+          <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+            <img class="img-flex push" src="images/shrub-3.jpg" alt="" aria-details="two-level-shrub">
             <div class="gutter-1-4" id="two-level-shrub">
               <h1 class="mega push-0">Two-level shrubbery</h1>
-              <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
+              <span role="complementary">Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
             </div>
           </li>
         </ul>
@@ -80,9 +80,10 @@
     <section id="prices" tabindex="0">
       <div class="wrapper gutter-1-2 pad-t pad-b">
         <h1 class="push-0 color-brand-dark">Prices</h1>
-        <span class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
+        <span role="complementary" class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</span>
 
         <table>
+          <caption>Prices for small, medium and large shrubberies.</caption>
           <tr>
             <td>&nbsp;</td>
             <td>Small</td>
@@ -119,18 +120,19 @@
         <ol class="list-group">
           <li class="push">
             <h3 class="push-0"><a href="#">What makes a good shrubbery?</a></h3>
-            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood. <a href="#">Read&nbsp;more…</a></p>
+            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood. <a href="#" aria-label="Read about what makes a good shrubbery?">Read&nbsp;more…</a></p>
           </li>
           <li class="push">
             <h3 class="push-0"><a href="#">Shrubbery recycling</a></h3>
-            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know. <a href="#">Read&nbsp;more…</a></p>
+            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know.<a href="#" aria-label="Read more about shrubbery recycling">Read&nbsp;more…</a></p>
           </li>
           <li class="push">
             <h3 class="push-0"><a href="#">Greens of any kind!</a></h3>
-            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a href="#">Read&nbsp;more…</a></p>
+            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a href="#" aria-label="Read more about greens of any kind">Read&nbsp;more…</a></p>
           </li>
         </ol>
-      </section>
+      </div>
+    </section>
 
     <section id="contact" tabindex="0">
       <div class="wrapper pad-t pad-b">
@@ -139,15 +141,15 @@
 
         <form class="grid" method="post" action="#">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <span class="push-1-8">Your name</span>
+            <span role="complementary" class="push-1-8">Your name</span>
             <input>
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <span class="push-1-8">E-mail address</span>
+            <span role="complementary" class="push-1-8">E-mail address</span>
             <input>
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <span class="push-1-8">Type of shrubbery</span>
+            <span role="complementary" class="push-1-8">Type of shrubbery</span>
             <select>
               <option>Two-level shrubbery</option>
               <option>Small shrubbery</option>
