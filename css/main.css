@@ -1,5 +1,16 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
+  box-sizing: border-box;
   font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 .color-brand {
@@ -12,7 +23,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -39,6 +49,10 @@ a:hover {
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus {
+  outline: 3px solid #000;
 }
 
 .about {
